@@ -1,0 +1,131 @@
+/*nav bar*/
+.header {
+    position: fixed;
+    background-color: #36539c;
+    justify-content: center;
+    overflow: hidden;
+    height: 50px;
+    box-shadow: 0px 6px 20px #252424;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 100;
+  }
+
+/*Nav bar title*/
+.headertextdiv {
+    display: table-cell;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: large;
+  }
+
+  /*hamburger menu*/
+  .hamburgerdiv {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 10px;
+    padding-top: 2px;
+  }
+
+  .hamburgericon {
+    width: 45px;
+    height: 45px;
+  }
+  
+   /* drop down menu */
+   #hamburgerDropdown {
+    position: fixed;
+    width: 400px;
+    height: 100%;
+    top: 50px;
+    left: 8px;
+    background-color: #36539c;
+    z-index: 100;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  li {
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+  }
+
+  .menulink {
+    text-decoration: none;
+  }
+
+  /*nav bar, menu text, main image text. */
+  .specialtextcolor {
+    color: white;
+  }
+
+/*paddleboard icon*/
+  .headericondiv {
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 10px;
+    padding-top: 3px;
+  }
+
+  .headericon {
+    width: 60px;
+    height: 45px;
+  }
+
+  /*main image*/  
+  .mainimagediv, .maincontentwrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .maincontentwidth {
+    max-width: 1200px; 
+  }
+
+  .mainimagefontlarge {
+    font-size: 80px;
+  }
+
+  .mainimagefontsmall {
+    font-size: 40px;
+  }
+
+  .mainimagetext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+/*Upcoming Adventures Text*/
+  .upcomingadventurestextlarge {
+    font-size: 60px;
+  }
+
+  .upcomingadventurestextsmall {
+    font-size: 30px;
+  }
+
+  h1.UpcomingAdventures {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+  }
+
+  .maincontenttextlarge {
+    font-size: large;
+  }
+
+  .maincontenttextsmall {
+    font-size: small;
+  }
+
+  .maincontent {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+ 
